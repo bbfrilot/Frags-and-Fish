@@ -1,0 +1,132 @@
+/* Style sheet created by: Bridget Frilot, 2020 */
+
+/* Style for body specifies a background color */
+body {
+    background-color: rgb(114, 166, 226);
+    text-align: center;
+    }
+
+/* Style to creat fluid image */
+img {
+max-width: 100%
+}
+
+/* Style for container centers the page and sets the element width */
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+/* Style for header specifies top margin, background color, rounded corners, and center-aligns content  */
+ header {
+    margin-top: 0.2em;
+    background-color: rgb(16, 124, 196);
+    border-radius: 0.3em;
+    border-style: none;
+    }
+        
+/* Style for nav specifies text properties */
+ nav {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: left;
+        }	
+
+/* Style for nav li specifies the background color, rounded corners, bullet style, and 
+applies margins and padding for list items within the navigation */
+
+nav li {
+        background-color: #3c6797;
+        border-radius: 2em;
+        list-style-type: none;
+        margin: 0.3em;
+        padding: 0.9em;
+        }
+
+/* Style changes navigation link text color to white and removes underline*/
+nav li a {
+        color: #FFFFFF;
+        text-decoration: none;
+        }
+
+/* Style specifies a horizontal display for navigation links */
+nav li	{
+display: inline;
+margin-left: 1%;
+margin-right: 1%;
+padding-left: 0;
+padding-right: 0;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners
+and border properties */
+main	{
+        display: block;
+        color: blue;
+        font-family: Cursive;
+        font-size: 1.5em;
+        font-style: bold;
+        font-style: italic;			
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        padding: 0.5em;
+        border-style: solid;
+        border-radius: 3em;
+        background-color: rgb(42, 144, 212);
+        border-top: solid 0.2em #204ee6;
+        border-bottom: solid 0.2em #210099;
+        box-shadow: 0.2em 0.2em 0.2em #150ba7;
+        }
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+padding-left: 0.5em;
+padding-right: 0.5em;
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+    margin-top: 2em;
+ }
+  
+/* Style specifies to display the desktop class */
+.desktop {
+    display: inline;
+}		
+    
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+nav li {
+border-radius: 0;
+border-top: solid #f3f3f5;
+border-left: solid #eeeef3;
+border-right: solid #ebeaf1;
+border-bottom: solid #ededf1;
+margin-left: 0;
+margin-right: 0;
+padding: 0;
+width: 20%;
+}
+/* Style for navigation links specifies display and padding */
+nav li a {
+display: inline-block;
+padding: 0.7em;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+color: #FFFFFF;
+}
+
+nav li a:visited {
+color: #FFFF99;
+}
+
+nav li a:hover {
+color: #FFFF00;
+font-style: italic;
+}
+
+
+    
